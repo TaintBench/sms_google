@@ -61,7 +61,8 @@
         "threading": true
       },
       "ID": 1,
-      "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request."
+      "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -121,7 +122,8 @@
         "threading": true
       },
       "ID": 2,
-      "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request."
+      "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -182,7 +184,8 @@
         "threading": true
       },
       "ID": 3,
-      "description": "This malicious partial flow listens to C&C command and sends SMS message in the background."
+      "description": "This malicious partial flow listens to C&C command and sends SMS message in the background.",
+      "isNegative": false
     },
     {
       "source": {
@@ -228,7 +231,8 @@
         "threading": true
       },
       "ID": 4,
-      "description": "This malicious partical flow listens to C&C command and sends SMS message."
+      "description": "This malicious partical flow listens to C&C command and sends SMS message.",
+      "isNegative": false
     }
   ]
 }
